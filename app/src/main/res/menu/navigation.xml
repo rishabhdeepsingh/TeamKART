@@ -4,15 +4,18 @@
     <item
         android:id="@+id/navigation_forum"
         android:icon="@drawable/ic_home_black_24dp"
+        android:onClick="forumActivity"
         android:title="@string/forum" />
 
     <item
         android:id="@+id/navigation_daq"
         android:icon="@drawable/ic_dashboard_black_24dp"
+        android:onClick="daqActivity"
         android:title="@string/daq" />
 
     <item
         android:id="@+id/navigation_services"
         android:icon="@drawable/ic_notifications_black_24dp"
+        android:onClick="servicesActivity"
         android:title="@string/services" />
 </menu>
